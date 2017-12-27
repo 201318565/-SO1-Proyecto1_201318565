@@ -1,0 +1,11 @@
+insmod memo_201318565.ko
+dmesg | tail -1
+cat /proc/memo_proc
+rmmod memo_201318565.ko
+
+
+
+insmod cpu_201318565.ko
+cat /proc/cpu_proc
+rmmod cpu_201318565.ko
+

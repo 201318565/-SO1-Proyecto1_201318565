@@ -1,0 +1,1 @@
+cmd_/home/gg1/module/proc1/proc1.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/gg1/module/proc1/proc1.ko /home/gg1/module/proc1/proc1.o /home/gg1/module/proc1/proc1.mod.o ;  true
